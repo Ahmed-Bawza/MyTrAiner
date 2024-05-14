@@ -1,10 +1,10 @@
 import streamlit as st
 
 st.title("My TrAiner | مدربي")
-exercise = st.selectbox("اختر تمرين" , ("none","1-squat","2-knee extention","3-foot ankel extention"))
+exercise = st.selectbox("اختر تمرين من القائمه" , ("none","1-squat","2-knee extention","3-foot ankel extention"))
 
 if (exercise == "none"):
-    st.header("Please Choose an exercise")
+    st.header("عذراً نرجو منك اختيار تمرين")
 
 elif (exercise == "1-squat"):
     # video_file = open('IMG_6038.mp4', 'rb')
