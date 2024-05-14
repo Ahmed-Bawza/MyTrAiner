@@ -10,7 +10,7 @@ elif (exercise == "1-squat"):
     # video_file = open('IMG_6038.mp4', 'rb')
     # video_bytes = video_file.read()
     # st.video(video_bytes)
-    st.supheader("جاهز؟",divider='red')
+    st.subheader("جاهز؟",divider='red')
     url = 'https://wesam0001.github.io/MyTrainer/'
     st.page_link(url, label="ابدا تمرينك", icon="🏋🏼‍♂️")
 
