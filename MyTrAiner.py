@@ -7,9 +7,9 @@ if (exercise == "none"):
     st.header("عذراً نرجو منك اختيار تمرين")
 
 elif (exercise == "1-squat"):
-    # video_file = open('IMG_6038.mp4', 'rb')
-    # video_bytes = video_file.read()
-    # st.video(video_bytes)
+    video_file = open('https://github.com/Ahmed-Bawza/MyTrAiner/blob/main/IMG_6038.MP4', 'rb')
+    st.video(video_file, subtitles="subtitles.vtt")
+    
     st.subheader("جاهز؟",divider='red')
     url = 'https://wesam0001.github.io/MyTrainer/'
     st.page_link(url, label="ابدا تمرينك", icon="🏋🏼‍♂️")
